@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.DS_Store
+*.csv
+!test_printer.csv
+!test_solid.csv
+!test_unsorted.csv
+!sorted_output.csv
+# Keep test data if desired, but usually ignore generic csvs. 
+# Given previous context, user has real data. I'll generally ignore CSVs unless they are test fixtures. 
+# But wait, earlier I deleted test CSVs. So ignoring *.csv is safe for now to avoid committing large data.
+
+*.xlsx
